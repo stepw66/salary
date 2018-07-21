@@ -1,0 +1,402 @@
+
+article {
+    overflow-y: auto;
+}
+article,
+body,
+html,
+.off-canvas-wrap, 
+.off-canvas-wrap .inner-wrap,
+.row {
+    height: 100%;
+    width: 100%;
+}
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.header-login-bar {
+	width: 100%;
+	height: 109px;
+	background-color: #3299BB;
+	color: #ffffff;
+	border-bottom: 1px solid #424242;
+	margin-bottom: 50px;
+	position: relative;
+}
+.header-text-login a {
+	line-height: 109px;
+	font-size: 28px;
+	padding-left: 20px;
+	color: #424242;
+}
+.header-text-login a:hover {
+	color: #424242;
+}
+.header-menu-top {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding-right: 2px;
+}
+
+.login-main fieldset {
+	border: 2px solid #eee;
+   padding: 1.25rem;
+   margin: 1.125rem 0; 
+}
+
+.top-line {
+	height: 5px;
+	width: 100%;
+	background-color: #FF9900;
+	position: absolute;
+	z-index: 999;
+}
+
+.name-system {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background-color: #3299BB;
+	text-align: center;
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 1.2em;
+}
+.name-system a {
+	color: #424242;
+}
+
+#main-content {
+    margin: 0;
+    background-color: #fff;
+}
+.detail-content {
+	margin-top: 2.8125rem;
+}
+
+.content-main {
+	background-color: #333;
+}
+
+.content-main .columns {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.accordion .accordion-navigation a.active {
+	background: #BCBCBC;
+}
+
+.logout-main a {	
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #bcbcbc;
+    color: #222222;
+    display: block;
+    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+}
+.logout-main a:hover {
+	background: #bcbcbc none repeat scroll 0 0;
+}
+
+.title-menu label {
+	color: #fff;
+	padding: 12px;
+}
+
+.left-small a:hover {
+	color: #FF9900;
+	background: #FF9900;
+}
+
+.title-app a {
+	color: #fff;
+}
+.title-app a:hover {
+	color: #FF9900;
+}
+
+.footer {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: none repeat scroll 0 0 #333333;
+    color: #ffffff;
+}
+.footer-line {
+	bottom: 0;
+	height: 5px;
+	width: 100%;
+	background-color: #006064;
+}
+
+
+input[type="search"] {
+	margin-top: 4px;
+}
+/*---- Icon ---*/
+.large {
+  font-size:50px;
+  line-height:50px;
+}
+.medium {
+  font-size:35px;
+  padding:0 5px;
+}
+.small {
+  font-size:20px;
+  padding:0 5px;
+}
+
+
+.textrad {
+	color: #c41411;
+	font-weight: 600;
+}
+.textblue {
+	color: #283593;
+	font-weight: 600;
+}
+.textacc1 {
+	color: #0097a7;
+	font-weight: 600;
+}
+.textacc2 {
+	color: #f57c00;
+	font-weight: 600;
+}
+.textsalary {
+	color: #d01716;
+	font-weight: 600;
+}
+.textsso {
+	color: #f57f17;
+	font-weight: 600;
+}
+.texttaxid {
+	color: #ff3d00;
+	font-weight: 600;
+}
+
+.tr_dep {
+	background-color: #D11B1B;
+	color: #ffffff;
+	font-size: 16px;
+	height: 20px;
+}
+
+.table-h {
+	height: auto;
+	overflow: auto;
+	position: relative;
+	width: 100%;
+	background-color:#fff;
+}
+
+.td-green {
+	background-color: #C5EACB;
+}
+
+.td-blue {
+	background-color: #c8edf7;
+}
+
+#view-data-special .tb-taxAll {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+#view-data-special .fixbar-btn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    text-align: center;
+    z-index: 999999;
+    padding-top: 22px;
+}
+
+
+
+
+#passport::before, #passport::after {
+    content: " ";
+    display: table;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+#passport::after {
+    clear: both;
+}
+#passport::before, #passport::after {
+    content: " ";
+    display: table;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+#passport {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    margin: 0 auto 3em;
+    max-width: 45em;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+#passport .passport-left #emailLogin, #passport .passport-right #emailLogin {
+    position: relative;
+}
+#emailLogin p {
+    font-size: 12px;
+}
+
+#passport {
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #ffffff 0%, #ffffff 47%, #f7f7f7 50%) repeat scroll 0 0;
+    margin-top: 6em;
+}
+
+#passport .passport-right {
+    background: #fff none repeat scroll 0 0;
+    border-left: 1px solid #e5e5e5;
+}
+
+#passport .passport-left, #passport .passport-right {
+    float: left;
+    padding: 30px;
+    position: relative;
+    width: 50%;
+}
+
+.prefix, .postfix {
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    font-size: 0.77778rem;
+    height: 2.05556rem;
+    line-height: 2.05556rem;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-top: 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+}
+.postfix.button {
+    border: medium none;
+    padding: 0;
+    text-align: center;
+}
+.prefix.button {
+    border: medium none;
+    padding: 0;
+    text-align: center;
+}
+.prefix.button.radius {
+    border-radius: 3px 0 0 3px;
+}
+.postfix.button.radius {
+    border-radius: 0 3px 3px 0;
+}
+.prefix.button.round {
+    border-radius: 1000px 0 0 1000px;
+}
+.postfix.button.round {
+    border-radius: 0 1000px 1000px 0;
+}
+span.prefix, label.prefix {
+    background: #f2f2f2 none repeat scroll 0 0;
+    border-color: #cccccc;
+    border-right: medium none #cccccc;
+    color: #333333;
+}
+span.postfix, label.postfix {
+    background: #f2f2f2 none repeat scroll 0 0;
+    border-color: #cccccc;
+    border-left: medium none #cccccc;
+    color: #333333;
+}
+
+input:not([type]), input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+    -moz-appearance: none;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+    box-sizing: border-box;
+    color: #444444;
+    display: block;
+    font-family: inherit;
+    font-size: 0.77778rem;
+    height: 2.05556rem;
+    margin: 0 0 0.88889rem;
+    padding: 0.44444rem;
+    transition: border-color 0.15s linear 0s, background 0.15s linear 0s;
+    width: 100%;
+}
+input:focus:not([type]), input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="color"]:focus, textarea:focus {
+    background-color: #fafafa;
+    border-color: #999999;
+    outline: medium none;
+}
+input:disabled:not([type]), input[type="text"]:disabled, input[type="password"]:disabled, input[type="date"]:disabled, input[type="datetime"]:disabled, input[type="datetime-local"]:disabled, input[type="month"]:disabled, input[type="week"]:disabled, input[type="email"]:disabled, input[type="number"]:disabled, input[type="search"]:disabled, input[type="tel"]:disabled, input[type="time"]:disabled, input[type="url"]:disabled, input[type="color"]:disabled, textarea:disabled {
+    background-color: #dddddd;
+    cursor: default;
+}
+input[disabled]:not([type]), input[readonly]:not([type]), fieldset[disabled] input:not([type]), input[type="text"][disabled], input[type="text"][readonly], fieldset[disabled] input[type="text"], input[type="password"][disabled], input[type="password"][readonly], fieldset[disabled] input[type="password"], input[type="date"][disabled], input[type="date"][readonly], fieldset[disabled] input[type="date"], input[type="datetime"][disabled], input[type="datetime"][readonly], fieldset[disabled] input[type="datetime"], input[type="datetime-local"][disabled], input[type="datetime-local"][readonly], fieldset[disabled] input[type="datetime-local"], input[type="month"][disabled], input[type="month"][readonly], fieldset[disabled] input[type="month"], input[type="week"][disabled], input[type="week"][readonly], fieldset[disabled] input[type="week"], input[type="email"][disabled], input[type="email"][readonly], fieldset[disabled] input[type="email"], input[type="number"][disabled], input[type="number"][readonly], fieldset[disabled] input[type="number"], input[type="search"][disabled], input[type="search"][readonly], fieldset[disabled] input[type="search"], input[type="tel"][disabled], input[type="tel"][readonly], fieldset[disabled] input[type="tel"], input[type="time"][disabled], input[type="time"][readonly], fieldset[disabled] input[type="time"], input[type="url"][disabled], input[type="url"][readonly], fieldset[disabled] input[type="url"], input[type="color"][disabled], input[type="color"][readonly], fieldset[disabled] input[type="color"], textarea[disabled], textarea[readonly], fieldset[disabled] textarea {
+    background-color: #dddddd;
+    cursor: default;
+}
+input.radius:not([type]), input.radius[type="text"], input.radius[type="password"], input.radius[type="date"], input.radius[type="datetime"], input.radius[type="datetime-local"], input.radius[type="month"], input.radius[type="week"], input.radius[type="email"], input.radius[type="number"], input.radius[type="search"], input.radius[type="tel"], input.radius[type="time"], input.radius[type="url"], input.radius[type="color"], textarea.radius {
+    border-radius: 3px;
+}
+form .row .prefix-radius.row.collapse input, form .row .prefix-radius.row.collapse textarea, form .row .prefix-radius.row.collapse select, form .row .prefix-radius.row.collapse button {
+    border-radius: 0 3px 3px 0;
+}
+form .row .prefix-radius.row.collapse .prefix {
+    border-radius: 3px 0 0 3px;
+}
+form .row .postfix-radius.row.collapse input, form .row .postfix-radius.row.collapse textarea, form .row .postfix-radius.row.collapse select, form .row .postfix-radius.row.collapse button {
+    border-radius: 3px 0 0 3px;
+}
+form .row .postfix-radius.row.collapse .postfix {
+    border-radius: 0 3px 3px 0;
+}
+form .row .prefix-round.row.collapse input, form .row .prefix-round.row.collapse textarea, form .row .prefix-round.row.collapse select, form .row .prefix-round.row.collapse button {
+    border-radius: 0 1000px 1000px 0;
+}
+form .row .prefix-round.row.collapse .prefix {
+    border-radius: 1000px 0 0 1000px;
+}
+form .row .postfix-round.row.collapse input, form .row .postfix-round.row.collapse textarea, form .row .postfix-round.row.collapse select, form .row .postfix-round.row.collapse button {
+    border-radius: 1000px 0 0 1000px;
+}
+form .row .postfix-round.row.collapse .postfix {
+    border-radius: 0 1000px 1000px 0;
+}
+input[type="submit"] {
+    -moz-appearance: none;
+    border-radius: 0;
+}
+textarea[rows] {
+    height: auto;
+}
+textarea {
+    max-width: 100%;
+}
+
+
